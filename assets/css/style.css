@@ -1,3 +1,5 @@
+/*base*/
+
 :root
 {
 	--red: #E50914; /* variáveis  */
@@ -15,6 +17,7 @@ body
 {
 	background:  var(--black);
 	font-family:  "Times New Roman", Times, serif;
+	color: white;
 }
 
 
@@ -43,4 +46,13 @@ header nav a
 header nav a:hover
 {
 	color:  #fff;
+}
+
+/*filme principal*/
+.filme-principal
+{
+	font-size: 16px;
+	background: url("../img/capa-flash.jpg");
+	height: 400px;
+	background-size: cover;
 }
